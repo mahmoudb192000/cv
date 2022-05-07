@@ -299,5 +299,6 @@ display: block;
 #dscft img{
 width: 100% !important;
 left: 0% !important;
+height: 500px !important;
 }
 }
