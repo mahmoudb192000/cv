@@ -46,6 +46,7 @@ overflow-x: hidden;
 transition: 0.5s;
 padding-top: 60px;
 display: none;
+box-shadow: inset 0px 0px 20px 0px gold;
 }
 .sidenav a {
 padding: 8px 8px 8px 32px;
@@ -71,6 +72,7 @@ width: 20%;
 height: 100%;
 position: fixed;
 background-color: black;
+box-shadow: inset 0px 0px 20px 0px goldenrod;
 }
 #dl1 img{
 width: 200px;
@@ -78,8 +80,8 @@ height: 200px;
 position: absolute;
 top: 10%;
 left: 20%;
-border: 5px gold solid;
-border-radius: 100px;
+border: 7px gold solid;
+border-radius: 200px;
 }
 #dl1 a{
 width: 95%;
@@ -127,7 +129,6 @@ box-shadow: 5px 5px 5px 5px black;
 #sld{
 width: 100%;
 height: 500px;
-background-color: tomato;
 display: inline-flex;
 }
 #sld img{
