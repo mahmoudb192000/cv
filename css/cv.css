@@ -117,6 +117,19 @@ background-color:  rgb(46, 41, 41);
 position: absolute;
 margin-left: 20%;
 }
+#ismi{
+width: 200px;
+height: 200px;
+border: 7px gold solid;
+border-radius: 200px;
+margin-top: 50px;
+display: none;
+}
+#psmp{
+font-size: 30px;
+color: gold;
+display: none;
+}
 #sp{
 display: none;
 font-size:30px;
@@ -274,6 +287,12 @@ display: none;
 #db{
 width: 100%;
 margin-left:0px;
+}
+#ismi{
+display: block;
+}
+#psmp{
+display: block;
 }
 #sp{
 display: block;
