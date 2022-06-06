@@ -277,7 +277,7 @@ text-align: left;
 font-size: 0;
 animation: 30s slider infinite; 
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 992px) {
 .sidenav {
 display: block;
 }
