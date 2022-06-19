@@ -28,7 +28,7 @@ document.documentElement.scrollTop = 3300;
 document.getElementById("mySidenav").style.width = "0";
 }
 function pr4(){
-document.documentElement.scrollTop = 4000;
+document.documentElement.scrollTop = 4300;
 document.getElementById("mySidenav").style.width = "0";
 }
 function pr5(){
@@ -115,4 +115,7 @@ function cft5(){
 var show=document.getElementById("dscft");
 show.style.display="block";
 show.innerHTML='<p style="font-size: 50px; position: fixed; top: 2%; left:50%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/8.jpg" style="width: 80%; height: 600px; position: fixed; top: 10%; left:10%">';
+}
+function cft6(){
+window.open("img/5c.jpg");
 }
