@@ -67,6 +67,14 @@ right: 25px;
 font-size: 40px;
 margin-left: 50px;
 }
+
+
+
+
+
+
+
+
 #dl1{
 width: 20%;
 height: 100%;
@@ -75,27 +83,26 @@ background-color: black;
 box-shadow: inset 0px 0px 20px 0px goldenrod;
 }
 #dl1 img{
-width: 200px;
-height: 200px;
+width: 95%;
+height: 30%;
 position: absolute;
-top: 10%;
-left: 20%;
-border: 7px gold solid;
-border-radius: 200px;
+top: 5%;
+border: 6px gold solid;
+border-radius: 20px 50px 20px 50px;
 }
 #dl1 a{
 width: 95%;
 height: auto;
 background-color: gold;
 display: block;
-margin-top: 30px;
+margin-top: 5%;
 position: relative;
-top: 45%;
+top: 35%;
 color: black;
-font-size: 30px;
+font-size: 20px;
 text-align: center;
 text-decoration: none;
-border: 5px white solid;
+border: 6px white solid;
 border-radius: 50px;
 cursor: pointer;
 }
@@ -104,12 +111,24 @@ color: white;
 background-color: goldenrod;
 }
 #dl1 p{
-font-size: 30px;
-position: absolute;
+font-size: 20px;
+position: relative;
 color: gold;
-top: 32%;
-left: 10%;
+top: 35%;
+text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 #db{
 width: 80%;
 height: auto;

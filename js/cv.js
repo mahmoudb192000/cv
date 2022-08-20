@@ -12,27 +12,27 @@ function up1() {
 document.documentElement.scrollTop = 0;
 }
 function ab1(){
-document.documentElement.scrollTop = 350;
+window.location.assign("#ab1");
 document.getElementById("mySidenav").style.width = "0";
 }
 function pr1(){
-document.documentElement.scrollTop = 1600;
+window.location.assign("#pr1");
 document.getElementById("mySidenav").style.width = "0";
 }
 function pr2(){
-document.documentElement.scrollTop = 900;
+window.location.assign("#pr2");
 document.getElementById("mySidenav").style.width = "0";
 }
 function pr3(){
-document.documentElement.scrollTop = 3300;
+window.location.assign("#pr3");
 document.getElementById("mySidenav").style.width = "0";
 }
 function pr4(){
-document.documentElement.scrollTop = 4300;
+window.location.assign("#pr4");
 document.getElementById("mySidenav").style.width = "0";
 }
 function pr5(){
-document.documentElement.scrollTop = 5100;
+window.location.assign("#pr5");
 document.getElementById("mySidenav").style.width = "0";
 }    
 function openNav() {
@@ -104,21 +104,21 @@ show.innerHTML='<p style="font-size: 50px; position: fixed; top: 2%; left:50%; c
 function cft3(){
 var show=document.getElementById("dscft");
 show.style.display="block";
-show.innerHTML='<p style="font-size: 50px; position: fixed; top: 2%; left:50%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/6.jpg" style="width: 80%; height: 600px; position: fixed; top: 10%; left:10%">';
+show.innerHTML='<p style="font-size: 50px; position: relative; top: 2%; left:50%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/6.jpg" style="width: 80%; height: 500px; position: absolute; top: 10%; left:10%">';
 }
 function cft4(){
 var show=document.getElementById("dscft");
 show.style.display="block";
-show.innerHTML='<p style="font-size: 50px; position: fixed; top: 2%; left:50%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/7.jpg" style="width: 80%; height: 600px; position: fixed; top: 10%; left:10%">';
+show.innerHTML='<p style="font-size: 50px; position: relative; top: 2%; left:50%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/7.jpg" style="width: 80%; height: 500px; position: absolute; top: 10%; left:10%">';
 }
 function cft5(){
 var show=document.getElementById("dscft");
 show.style.display="block";
-show.innerHTML='<p style="font-size: 50px; position: fixed; top: 2%; left:50%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/8.jpg" style="width: 80%; height: 600px; position: fixed; top: 10%; left:10%">';
+show.innerHTML='<p style="font-size: 50px; position: relative; top: 2%; left:50%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/8.jpg" style="width: 80%; height: 500px; position: absolute; top: 10%; left:10%">';
 }
 function cft6(){
 var show=document.getElementById("dscft");
 var heht=screen.height;
 show.style.display="block";
-show.innerHTML='<p style="font-size: 50px; position: fixed; top: 2%; left:50%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><center><div style="width: 90%;margin-top: 5%;height: 600px;overflow: auto;"><img src="img/5c.jpg" style="width: 100%;height:auto;"></div></center>';
+show.innerHTML='<p style="font-size: 50px; position: relative; top: 2%; left:50%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><center><div style="width: 80%; height: 500px; position: absolute; top: 10%; left:10%;overflow: auto;"><img src="img/5c.jpg" style="width: 100%;height:auto;"></div></center>';
 }
