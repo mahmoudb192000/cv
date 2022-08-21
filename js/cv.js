@@ -58,7 +58,13 @@ document.getElementById("sdim3").style.display="none";
 document.getElementById("sdim4").style.display="none";
 }
 function opcv(){ 
-window.open("cv.pdf");
+
+var show=document.getElementById("dscft");
+show.style.display="block";
+show.innerHTML='<p style="font-size: 50px; position: absolute; top: 2%; left:50%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><iframe src="cv.pdf" style="width: 80%; height: 500px; position: absolute; top: 10%; left:10%"></iframe>';
+
+//<img src="img/8.jpg" style="width: 80%; height: 500px; position: absolute; top: 10%; left:10%"></img>
+//window.open("cv.pdf");
 }
 function pro1(){ 
 window.open("https://mahmoudb192000.github.io/business");
