@@ -90,7 +90,7 @@ window.open("https://wa.me/qr/F3OCS3HGAKZRO1");
 function cft1(){
 var show=document.getElementById("dscft");
 show.style.display="block";
-show.innerHTML='<p style="font-size: 50px; position: fixed; top: 2%; left:50%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/2.jpg" style="width: 80%; height: 600px; position: fixed; top: 10%; left:10%;">';
+show.innerHTML='<p style="font-size: 50px; position: fixed; top: 2%; left:50%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/2.jpg" style="width: 80%; height: 500px; position: fixed; top: 10%; left:10%;">';
 }
 function hcft1(){
 show=document.getElementById("dscft").style.display="none";
@@ -99,7 +99,7 @@ show=document.getElementById("dscft").innerHTML="";
 function cft2(){
 var show=document.getElementById("dscft");
 show.style.display="block";
-show.innerHTML='<p style="font-size: 50px; position: fixed; top: 2%; left:50%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/5.jpg" style="width: 80%; height: 600px; position: fixed; top: 10%; left:10%">';
+show.innerHTML='<p style="font-size: 50px; position: fixed; top: 2%; left:50%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/5.jpg" style="width: 80%; height: 500px; position: fixed; top: 10%; left:10%">';
 }
 function cft3(){
 var show=document.getElementById("dscft");
@@ -118,7 +118,6 @@ show.innerHTML='<p style="font-size: 50px; position: relative; top: 2%; left:50%
 }
 function cft6(){
 var show=document.getElementById("dscft");
-var heht=screen.height;
 show.style.display="block";
 show.innerHTML='<p style="font-size: 50px; position: relative; top: 2%; left:50%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><center><div style="width: 80%; height: 500px; position: absolute; top: 10%; left:10%;overflow: auto;"><img src="img/5c.jpg" style="width: 100%;height:auto;"></div></center>';
 }
