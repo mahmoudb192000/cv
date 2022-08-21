@@ -58,13 +58,7 @@ document.getElementById("sdim3").style.display="none";
 document.getElementById("sdim4").style.display="none";
 }
 function opcv(){ 
-
-var show=document.getElementById("dscft");
-show.style.display="block";
-show.innerHTML='<p style="font-size: 50px; position: absolute; top: 2%; left:50%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><iframe src="cv.pdf" style="width: 80%; height: 500px; position: absolute; top: 10%; left:10%"></iframe>';
-
-//<img src="img/8.jpg" style="width: 80%; height: 500px; position: absolute; top: 10%; left:10%"></img>
-//window.open("cv.pdf");
+window.open("cv.pdf");
 }
 function pro1(){ 
 window.open("https://mahmoudb192000.github.io/business");
@@ -127,3 +121,8 @@ var show=document.getElementById("dscft");
 show.style.display="block";
 show.innerHTML='<p style="font-size: 50px; position: absolute; top: 2%; left:50%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><center><div style="width: 80%; height: 500px; position: absolute; top: 10%; left:10%;overflow: auto;"><img src="img/5c.jpg" style="width: 100%;height:auto;"></div></center>';
 }
+function cft7(){
+    var show=document.getElementById("dscft");
+    show.style.display="block";
+    show.innerHTML='<p style="font-size: 50px; position: absolute; top: 2%; left:50%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/9.png" style="width: 80%; height: 500px; position: absolute; top: 10%; left:10%">';
+    }

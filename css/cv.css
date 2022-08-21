@@ -81,6 +81,8 @@ height: 100%;
 position: fixed;
 background-color: black;
 box-shadow: inset 0px 0px 20px 0px goldenrod;
+animation-name: zoom;
+animation-duration: 2s;
 }
 #dl1 img{
 width: 95%;
@@ -143,6 +145,8 @@ border: 7px gold solid;
 border-radius: 200px;
 margin-top: 50px;
 display: none;
+animation-name: zoom;
+animation-duration: 1s;
 }
 #psmp{
 font-size: 30px;
@@ -334,11 +338,7 @@ left: 0% !important;
         width: 100% !important;
         height: auto !important;
         }
-        #dscft iframe{
-            width: 100% !important;
-            left: 0% !important;
-            height: 500px !important;
-            }
+      
     
 }
 @media screen and (max-width: 600px) {
@@ -369,12 +369,7 @@ height: 500px !important;
     width: 100% !important;
     height: auto !important;
     }
-    #dscft iframe{
-        width: 100% !important;
-        left: 0% !important;
-        height: 500px !important;
-        }
-
+   
       
 
 
