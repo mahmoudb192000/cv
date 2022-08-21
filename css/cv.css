@@ -204,7 +204,7 @@ position: relative;
 }
 .grid div img:hover{
 transform: scale(0.8);
-box-shadow: 20px 10px 20px 10px gold;
+box-shadow: 0px 0px 20px 20px gold;
 }
 .grid0 {
 display: grid;
@@ -227,7 +227,7 @@ position: relative;
 }
 .grid0 div img:hover{
 transform: scale(0.8);
-box-shadow: 20px 10px 20px 10px gold;
+box-shadow: 0px 0px 20px 20px gold;
 }
 #dscft{
 width: 100%;
@@ -269,7 +269,7 @@ position: relative;
 }
 .grid2 div img:hover{
 transform: scale(0.8);
-box-shadow: 20px 10px 20px 10px gold;
+box-shadow: 0px 0px 20px 20px gold;
 }
 @keyframes slider {
 0% { left: 0%; }
