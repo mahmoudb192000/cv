@@ -13,12 +13,10 @@ width: 20px;
 ::-webkit-scrollbar-track {
 box-shadow: inset 0 0 5px black;
 border-radius: 10px;
-
 }
 ::-webkit-scrollbar-thumb {
 background: gold;
 border-radius: 10px;
-
 }
 ::-webkit-scrollbar-thumb:hover {
 background: goldenrod;
@@ -67,14 +65,6 @@ right: 25px;
 font-size: 40px;
 margin-left: 50px;
 }
-
-
-
-
-
-
-
-
 #dl1{
 width: 20%;
 height: 100%;
@@ -119,24 +109,28 @@ color: gold;
 top: 35%;
 text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 #db{
 width: 80%;
 height: auto;
 background-color:  rgb(46, 41, 41);
 position: absolute;
 margin-left: 20%;
+}
+#wloc{
+font-size: 50px;
+font-family: monospace;
+color: gold;
+text-align: center;
+animation: wloc 1s ease-in-out infinite alternate;
+margin-top: 50px;
+}
+@keyframes wloc {
+from {
+text-shadow: 0px 0px 50px black;
+}
+to {
+text-shadow: 0px 0px 50px white;
+}
 }
 #ismi{
 width: 200px;
@@ -170,7 +164,6 @@ display: inline-flex;
 #sld img{
 width: 50%;
 height: 500px;
-
 }
 #dwcv{
 width: 200px;
@@ -248,7 +241,6 @@ animation-duration: 1s;
 animation-name: zoom;
 animation-duration: 1s;
 }
-
 @keyframes zoom {
 from {transform:scale(0)} 
 to {transform:scale(1)}
@@ -330,16 +322,17 @@ width: 100% !important;
 left: 0% !important;
 }
 #dscft div{
-    width: 100% !important;
-    left: 0% !important;
-    height: 500px !important;
-    }
-    #dscft div img{
-        width: 100% !important;
-        height: auto !important;
-        }
-      
-    
+width: 100% !important;
+left: 0% !important;
+height: 500px !important;
+}
+#dscft div img{
+width: 100% !important;
+height: auto !important;
+}
+#wloc{
+font-size: 30px;
+}
 }
 @media screen and (max-width: 600px) {
 .sidenav {
@@ -366,11 +359,10 @@ left: 0% !important;
 height: 500px !important;
 }
 #dscft div img{
-    width: 100% !important;
-    height: auto !important;
-    }
-   
-      
-
-
+width: 100% !important;
+height: auto !important;
+}
+#wloc{
+font-size: 20px;
+}
 }
