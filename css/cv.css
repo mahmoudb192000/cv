@@ -156,14 +156,42 @@ position: absolute;
 z-index: 90; 
 box-shadow: 5px 5px 5px 5px black;
 }
-#sld{
-width: 100%;
+#crd{
+width: 500px;
 height: 500px;
-display: inline-flex;
+margin: auto;
 }
-#sld img{
-width: 50%;
+.ai{
+width: 500px;
 height: 500px;
+display: none;
+position: absolute; 
+animation-duration: 1s;
+animation-name: zoom;
+}
+#nb{
+position: relative;
+margin-top: 230px;
+float: right;
+cursor: pointer;
+font-size: 40px;
+color: gold;
+display: inline-flex;
+animation: wloc 1s ease-in-out infinite alternate;
+}
+#bb{
+position: relative;
+margin-top: 230px;
+cursor: pointer;
+font-size: 40px;
+color: gold;
+display: inline-flex;
+animation: wloc 1s ease-in-out infinite alternate;
+}
+#nb:hover, #bb:hover{
+color: black;
+background-color: gold;
+border-radius: 30px;
 }
 #dwcv{
 width: 200px;

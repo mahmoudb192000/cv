@@ -41,22 +41,19 @@ document.getElementById("mySidenav").style.width = "250px";
 function closeNav() {
 document.getElementById("mySidenav").style.width = "0";
 }
-document.getElementById("sdim3").style.display="none";
-document.getElementById("sdim4").style.display="none";
-setInterval(ch, 3000)
-function ch(){
-document.getElementById("sdim3").style.display="block";
-document.getElementById("sdim4").style.display="block";
-document.getElementById("sdim1").style.display="none";
-document.getElementById("sdim2").style.display="none";
+let slideIndex = 1;
+showSlides(slideIndex);
+function nb(n){
+showSlides(slideIndex += n);
 }
-setInterval(ch1, 6000)
-function ch1(){
-document.getElementById("sdim1").style.display="block";
-document.getElementById("sdim2").style.display="block";
-document.getElementById("sdim3").style.display="none";
-document.getElementById("sdim4").style.display="none";
-}
+function showSlides(n) {
+let i;
+let slides = document.getElementsByClassName("ai");
+if (n > slides.length) {slideIndex = 1}    
+if (n < 1) {slideIndex = slides.length}
+for (i = 0; i < slides.length; i++) {
+slides[i].style.display = "none";}
+slides[slideIndex-1].style.display = "block";}
 function opcv(){ 
 window.open("cv.pdf");
 }
