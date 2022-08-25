@@ -160,6 +160,8 @@ box-shadow: 5px 5px 5px 5px black;
 width: 500px;
 height: 500px;
 margin: auto;
+box-shadow: 0px 0px 20px 0px gold;
+border-radius: 20px 50px 20px 50px;
 }
 .ai{
 width: 500px;
@@ -168,6 +170,8 @@ display: none;
 position: absolute; 
 animation-duration: 1s;
 animation-name: zoom;
+box-shadow: 0px 0px 20px 0px gold;
+border-radius: 20px 50px 20px 50px;
 }
 #nb{
 position: relative;
@@ -175,7 +179,7 @@ margin-top: 230px;
 float: right;
 cursor: pointer;
 font-size: 40px;
-color: gold;
+color: black;
 display: inline-flex;
 animation: wloc 1s ease-in-out infinite alternate;
 }
@@ -184,13 +188,13 @@ position: relative;
 margin-top: 230px;
 cursor: pointer;
 font-size: 40px;
-color: gold;
+color: black;
 display: inline-flex;
 animation: wloc 1s ease-in-out infinite alternate;
 }
 #nb:hover, #bb:hover{
-color: black;
-background-color: gold;
+color: gold;
+background-color: black;
 border-radius: 30px;
 }
 #dwcv{
@@ -260,6 +264,7 @@ z-index: 200;
 position: fixed;
 background-color: black;
 display: none;
+animation: wloc 1s ease-in-out infinite alternate;
 }
 #dscft img{
 animation-name: zoom;
