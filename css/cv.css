@@ -363,6 +363,12 @@ font-size: 30px;
 }
 }
 @media screen and (max-width: 600px) {
+#crd{
+width: 100%;
+}
+.ai{
+width: 100%;
+}
 .sidenav {
 display: block;
 }
