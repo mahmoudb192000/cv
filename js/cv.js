@@ -55,7 +55,7 @@ for (i = 0; i < slides.length; i++) {
 slides[i].style.display = "none";}
 slides[slideIndex-1].style.display = "block";}
 function opcv(){ 
-window.open("cv.pdf");
+window.open("CV For Mahmoud ELboushy.pdf");
 }
 function pro1(){ 
 window.open("https://mahmoudb192000.github.io/business");
@@ -96,35 +96,35 @@ show=document.getElementById("dscft").innerHTML="";
 function cft2(){
 var show=document.getElementById("dscft");
 show.style.display="block";
-show.innerHTML='<p style="font-size: 50px; position: absolute; top: 2%; left:50%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/5.jpg" style="width: 80%; height: 500px; position: fixed; top: 10%; left:10%">';
+show.innerHTML='<p style="font-size: 50px; position: absolute; top: 2%; left:48%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/5.jpg" style="width: 80%; height: 500px; position: fixed; top: 10%; left:10%">';
 }
 function cft3(){
 var show=document.getElementById("dscft");
 show.style.display="block";
-show.innerHTML='<p style="font-size: 50px; position: absolute; top: 2%; left:50%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/6.jpg" style="width: 80%; height: 500px; position: absolute; top: 10%; left:10%">';
+show.innerHTML='<p style="font-size: 50px; position: absolute; top: 2%; left:48%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/6.jpg" style="width: 80%; height: 500px; position: absolute; top: 10%; left:10%">';
 }
 function cft4(){
 var show=document.getElementById("dscft");
 show.style.display="block";
-show.innerHTML='<p style="font-size: 50px; position: absolute; top: 2%; left:50%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/7.jpg" style="width: 80%; height: 500px; position: absolute; top: 10%; left:10%">';
+show.innerHTML='<p style="font-size: 50px; position: absolute; top: 2%; left:48%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/7.jpg" style="width: 80%; height: 500px; position: absolute; top: 10%; left:10%">';
 }
 function cft5(){
 var show=document.getElementById("dscft");
 show.style.display="block";
-show.innerHTML='<p style="font-size: 50px; position: absolute; top: 2%; left:50%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/8.jpg" style="width: 80%; height: 500px; position: absolute; top: 10%; left:10%">';
+show.innerHTML='<p style="font-size: 50px; position: absolute; top: 2%; left:48%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/8.jpg" style="width: 80%; height: 500px; position: absolute; top: 10%; left:10%">';
 }
 function cft6(){
 var show=document.getElementById("dscft");
 show.style.display="block";
-show.innerHTML='<p style="font-size: 50px; position: absolute; top: 2%; left:50%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><center><div style="width: 80%; height: 500px; position: absolute; top: 10%; left:10%;overflow: auto;"><img src="img/5c.jpg" style="width: 100%;height:auto;"></div></center>';
+show.innerHTML='<p style="font-size: 50px; position: absolute; top: 2%; left:48%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><center><div style="width: 80%; height: 500px; position: absolute; top: 10%; left:10%;overflow: auto;"><img src="img/5c.jpg" style="width: 100%;height:auto;"></div></center>';
 }
 function cft7(){
 var show=document.getElementById("dscft");
 show.style.display="block";
-show.innerHTML='<p style="font-size: 50px; position: absolute; top: 2%; left:50%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/9.png" style="width: 80%; height: 500px; position: absolute; top: 10%; left:10%">';
+show.innerHTML='<p style="font-size: 50px; position: absolute; top: 2%; left:48%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/9.png" style="width: 80%; height: 500px; position: absolute; top: 10%; left:10%">';
 }
 function cft8(){
     var show=document.getElementById("dscft");
     show.style.display="block";
-    show.innerHTML='<p style="font-size: 50px; position: absolute; top: 2%; left:50%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><center><div style="width: 80%; height: 500px; position: absolute; top: 10%; left:10%;overflow: auto;"><img src="img/11.jpg" style="width: 100%;height:auto;"></div></center>';
+    show.innerHTML='<p style="font-size: 50px; position: absolute; top: 2%; left:48%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><center><div style="width: 80%; height: 500px; position: absolute; top: 10%; left:10%;overflow: auto;"><img src="img/11.jpg" style="width: 100%;height:auto;"></div></center>';
     }
