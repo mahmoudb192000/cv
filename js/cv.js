@@ -87,7 +87,7 @@ window.open("https://wa.me/qr/F3OCS3HGAKZRO1");
 function cft1(){
 var show=document.getElementById("dscft");
 show.style.display="block";
-show.innerHTML='<p style="font-size: 50px; position: absolute; top: 2%; left:50%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/2.jpg" style="width: 80%; height: 500px; position: fixed; top: 10%; left:10%;">';
+show.innerHTML='<p style="font-size: 50px; position: absolute; top: 2%; left:48%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/2.jpg" style="width: 80%; height: 500px; position: fixed; top: 10%; left:10%;">';
 }
 function hcft1(){
 show=document.getElementById("dscft").style.display="none";
