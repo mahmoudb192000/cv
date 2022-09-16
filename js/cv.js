@@ -79,7 +79,7 @@ function gcg(){
 window.open("mailto:mahmoudelboushi0909@gmail.com");
 }
 function gcp(){ 
-window.location.assign("tel:01202676954");
+window.location.assign("tel:+20 01202676954");
 }
 function gcw(){ 
 window.open("https://wa.me/qr/F3OCS3HGAKZRO1");
