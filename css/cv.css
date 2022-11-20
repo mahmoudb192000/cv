@@ -246,12 +246,12 @@ margin-top: 50px;
 }
 .grid0 div{
 width: 100%;
-height: 400px;
+height: 350px;
 cursor: pointer;
 }
 .grid0 div img{
 width: 100%;
-height: 400px;
+height: 350px;
 transition: transform .5s;
 border-radius: 50px 20px 50px 20px; 
 position: relative;
@@ -289,12 +289,12 @@ margin-top: 50px;
 }
 .grid2 div{
 width: 100%;
-height: 400px;
+height: 350px;
 cursor: pointer;
 }
 .grid2 div img{
 width: 100%;
-height: 400px;
+height: 350px;
 transition: transform .5s;
 border-radius: 50px 20px 50px 20px; 
 position: relative;
@@ -304,19 +304,19 @@ transform: scale(0.8);
 box-shadow: 0px 0px 20px 20px gold;
 }
 .psp{
-    opacity: 0;
-    position: relative;
-    display: inline;
-    z-index: 2;
-    font-size: 30px;
-    bottom: 25%;
-    color: black;
-    width: 100%;
+opacity: 0;
+position: relative;
+display: inline;
+z-index: 2;
+font-size: 30px;
+bottom: 25%;
+color: black;
+width: 100%;
 }
 .grid div:hover .psp{
-    opacity: 1;
-    box-shadow: inset 0 0px 20px 10px white;
-    transition: .5s ease;
+opacity: 1;
+box-shadow: inset 0 0px 20px 10px white;
+transition: .5s ease;
 }
 @media screen and (max-width: 992px) {
 .sidenav {
@@ -357,10 +357,10 @@ font-size: 30px;
 }
 @media screen and (max-width: 600px) {
 #crd{
-width: 100%;
+width: 90%;
 }
 .ai{
-width: 100%;
+width: 90%;
 }
 .sidenav {
 display: block;
@@ -391,5 +391,14 @@ height: auto !important;
 }
 #wloc{
 font-size: 20px;
+}
+.grid {
+grid-template-columns: repeat(1, 1fr);
+}
+.grid2{
+grid-template-columns: repeat(1, 1fr);
+}
+.grid0{
+grid-template-columns: repeat(1, 1fr);
 }
 }
