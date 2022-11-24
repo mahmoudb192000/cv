@@ -72,6 +72,9 @@ window.open("https://mahmoudb192000.github.io/sign-up");
 function pro5(){ 
 window.open("https://mahmoudb192000.github.io/travel");
 }
+function pro6(){ 
+window.open("https://mahmoudb192000.github.io/save-nature");
+}
 function gcf(){ 
 window.open("https://www.facebook.com/profile.php?id=100012510252975");
 }
