@@ -82,7 +82,7 @@ function pro8(){
 window.open("https://mahmoudb192000.github.io/healthy-food");
 }
 function pro9(){ 
-window.open("https://mahmoudb192000.github.io/healthy-food");
+window.open("https://mahmoudb192000.github.io/pet-food");
 }
 function gcf(){ 
 window.open("https://www.facebook.com/profile.php?id=100012510252975");
