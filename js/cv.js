@@ -84,6 +84,9 @@ window.open("https://mahmoudb192000.github.io/healthy-food");
 function pro9(){ 
 window.open("https://mahmoudb192000.github.io/pet-food");
 }
+function pro10(){ 
+window.open("https://mahmoudb192000.github.io/architect-website");
+}
 function gcf(){ 
 window.open("https://www.facebook.com/profile.php?id=100012510252975");
 }
@@ -95,6 +98,12 @@ window.location.assign("tel:+20 01202676954");
 }
 function gcw(){ 
 window.open("https://wa.me/qr/F3OCS3HGAKZRO1");
+}
+function gcgh(){ 
+window.open("https://github.com/mahmoudb192000");
+}
+function gct(){ 
+window.open("https://t.me/MAHMOUDELBOUSHY");
 }
 function cft1(){
 var show=document.getElementById("dscft");
@@ -145,3 +154,25 @@ var show=document.getElementById("dscft");
 show.style.display="block";
 show.innerHTML='<p style="font-size: 50px; position: absolute; top: 2%; left:48%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/9.jpg" style="width: 80%; height: 500px; position: fixed; top: 10%; left:10%">';
 }
+const bubble = document.querySelector(".bubble");
+const tabs = document.querySelector(".tabs");
+tabs.addEventListener("mouseenter", (e) => {
+setTimeout(
+() =>
+(bubble.style.transition =
+"transform 200ms ease-out, left 300ms ease-out"),
+5
+);
+bubble.style.transform = "scale(1,1) translateX(-25%)";
+});
+tabs.addEventListener("mouseleave", (e) => {
+bubble.style.transition = "transform 200ms ease-out";
+bubble.style.transform = "scale(1,0) translateX(-25%)";
+});
+tabs.addEventListener("mouseover", (e) => {
+e.target.classList.add("hover");
+bubble.style.left = e.target.offsetLeft + "px";
+});
+tabs.addEventListener("mouseout", (e) => {
+e.target.classList.remove("hover");
+});
