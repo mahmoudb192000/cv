@@ -75,21 +75,20 @@ animation-name: zoom;
 animation-duration: 2s;
 }
 #dl1 img{
-width: 95%;
+width: 75%;
 height: 30%;
-position: absolute;
-top: 5%;
+display: block;
 border: 6px gold solid;
-border-radius: 20px 50px 20px 50px;
+border-radius: 100%;
+margin: auto;
+margin-top: 20px;
 }
 #dl1 a{
 width: 95%;
 height: auto;
 background-color: gold;
 display: block;
-margin-top: 5%;
-position: relative;
-top: 35%;
+margin-top: 10px;
 color: black;
 font-size: 20px;
 text-align: center;
@@ -104,9 +103,7 @@ background-color: goldenrod;
 }
 #dl1 p{
 font-size: 20px;
-position: relative;
 color: gold;
-top: 35%;
 text-align: center;
 }
 #db{
@@ -505,8 +502,8 @@ grid-template-columns: repeat(1, 1fr);
 width: 100%;
 }
 #up1 {
-width: 50px;
-height: 50px;
+width: 75px;
+height: 75px;
 bottom: 100px;
 }
 }
