@@ -159,6 +159,9 @@ height: 500px;
 margin: auto;
 box-shadow: 0px 0px 20px 0px gold;
 border-radius: 20px 50px 20px 50px;
+background: rgb(10, 10, 10);
+transition: all 0.5s;
+position: sticky;
 }
 .ai{
 width: 500px;
@@ -169,6 +172,27 @@ animation-duration: 1s;
 animation-name: zoom;
 box-shadow: 0px 0px 20px 0px gold;
 border-radius: 20px 50px 20px 50px;
+}
+#crd::before,#crd::after{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+border-radius: 20px 50px 20px 50px;
+background: linear-gradient(45deg,black,#1d4d4d,gold,white,#c50e0e69);
+z-index: -1;
+transform: scale(1.02);
+background-size: 500%;
+animation: anim 20s linear infinite;
+}
+@keyframes anim{
+0%,100%{background-position: 0 0;}
+50%{background-position: 300% 0;}
+}
+#crd::after{
+filter: blur(30px);
 }
 #nb{
 position: relative;
@@ -191,7 +215,6 @@ animation: wloc 1s ease-in-out infinite alternate;
 }
 #nb:hover, #bb:hover{
 color: gold;
-background-color: black;
 border-radius: 30px;
 }
 #dwcv{
