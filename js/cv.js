@@ -144,15 +144,15 @@ var show=document.getElementById("dscft");
 show.style.display="block";
 show.innerHTML='<p style="font-size: 50px; position: absolute; top: 2%; left:48%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/9.png" style="width: 80%; height: 80%; position: absolute; top: 10%; left:10%">';
 }
-function cft8(){
+function cft10(){
 var show=document.getElementById("dscft");
 show.style.display="block";
-show.innerHTML='<p style="font-size: 50px; position: absolute; top: 2%; left:48%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><center><div style="width: 80%; height: 80%; position: absolute; top: 10%; left:10%;overflow: auto;"><img src="img/11.jpg" style="width: 100%;height:auto;"></div></center>';
+show.innerHTML='<p style="font-size: 50px; position: absolute; top: 2%; left:48%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/Certificate-EYouth.png" style="width: 80%; height: 80%; position: fixed; top: 10%; left:10%">';
 }
-function cft9(){
+function cft11(){
 var show=document.getElementById("dscft");
 show.style.display="block";
-show.innerHTML='<p style="font-size: 50px; position: absolute; top: 2%; left:48%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/9.jpg" style="width: 80%; height: 80%; position: fixed; top: 10%; left:10%">';
+show.innerHTML='<p style="font-size: 50px; position: absolute; top: 2%; left:48%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/untitled.png" style="width: 80%; height: 80%; position: fixed; top: 10%; left:10%">';
 }
 const bubble = document.querySelector(".bubble");
 const tabs = document.querySelector(".tabs");
