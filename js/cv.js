@@ -169,6 +169,11 @@ var show=document.getElementById("dscft");
 show.style.display="block";
 show.innerHTML='<p style="font-size: 50px; position: absolute; top: 2%; left:48%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/untitleda.png" style="width: 80%; height: 80%; position: fixed; top: 10%; left:10%">';
 }
+function cft13(){
+var show=document.getElementById("dscft");
+show.style.display="block";
+show.innerHTML='<p style="font-size: 50px; position: absolute; top: 2%; left:48%; cursor: pointer;margin:0px" onclick="hcft1()">×</p><br><img src="img/m.png" style="width: 80%; height: 80%; position: fixed; top: 10%; left:10%">';
+}
 const bubble = document.querySelector(".bubble");
 const tabs = document.querySelector(".tabs");
 tabs.addEventListener("mouseenter", (e) => {
